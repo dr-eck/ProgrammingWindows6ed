@@ -1,0 +1,11 @@
+namespace ColorScrollWithVM
+{
+    runtimeclass RgbViewModel : Windows.UI.Xaml.Data.INotifyPropertyChanged
+    {
+        RgbViewModel();
+        Double Red;
+        Double Green;
+        Double Blue;
+        //Windows.UI.Color Color;
+    }
+}

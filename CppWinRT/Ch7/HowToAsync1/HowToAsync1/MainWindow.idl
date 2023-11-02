@@ -1,0 +1,8 @@
+namespace HowToAsync1
+{
+    [default_interface]
+    runtimeclass MainWindow : Microsoft.UI.Xaml.Window
+    {
+        MainWindow();
+    }
+}
