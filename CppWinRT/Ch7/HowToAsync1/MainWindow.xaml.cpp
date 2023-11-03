@@ -1,3 +1,6 @@
+// Copyright (c) Microsoft Corporation and Contributors.
+// Licensed under the MIT License.
+
 #include "pch.h"
 #include "MainWindow.xaml.h"
 #if __has_include("MainWindow.g.cpp")
@@ -5,19 +8,20 @@
 #endif
 
 using namespace winrt;
-using namespace Windows::Foundation;
-using namespace Windows::Foundation::Collections;
-using namespace Windows::UI::Popups;
 using namespace Microsoft::UI::Xaml;
 using namespace Microsoft::UI::Xaml::Controls;
-using namespace Microsoft::UI::Xaml::Controls::Primitives;
-using namespace Microsoft::UI::Xaml::Data;
-using namespace Microsoft::UI::Xaml::Input;
 using namespace Microsoft::UI::Xaml::Media;
-using namespace Microsoft::UI::Xaml::Navigation;
+
+// To learn more about WinUI, the WinUI project structure,
+// and more about our project templates, see: http://aka.ms/winui-project-info.
 
 namespace winrt::HowToAsync1::implementation
 {
+    MainWindow::MainWindow()
+    {
+        InitializeComponent();
+    }
+
     winrt::fire_and_forget MainWindow::OnButtonClick(IInspectable const&, RoutedEventArgs const&)
     {
         //auto rv{ ShowDlg(contentGrid(), myButton()) };

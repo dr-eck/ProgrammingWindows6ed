@@ -8,14 +8,14 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-	<Grid x:Name="contentGrid"
+    <Grid x:Name="contentGrid"
           Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
 
-		<Button x:Name="myButton"
+        <Button x:Name="myButton"
 				Content="Show me a ContentDialog!"
                 HorizontalAlignment="Center"
                 VerticalAlignment="Center"
                 Click="OnButtonClick" />
 
-	</Grid>
+    </Grid>
 </Window>

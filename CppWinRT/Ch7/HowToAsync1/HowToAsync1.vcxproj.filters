@@ -7,6 +7,7 @@
     <Page Include="MainWindow.xaml" />
   </ItemGroup>
   <ItemGroup>
+    <Midl Include="App.idl" />
     <Midl Include="MainWindow.idl" />
   </ItemGroup>
   <ItemGroup>
@@ -41,7 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Assets">
-      <UniqueIdentifier>{1f0157f2-7d4d-4a90-bcb4-e504983789ab}</UniqueIdentifier>
+      <UniqueIdentifier>{8fa460c9-998b-4f8a-9262-cd9280c35d66}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

@@ -8,14 +8,14 @@
   IgnorableNamespaces="uap rescap">
 
   <Identity
-    Name="dce6a823-8fc1-4b07-8520-41efa39accff"
+    Name="92881561-6a7e-4fad-a186-3b9f0edb6021"
     Publisher="CN=dreck"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="dce6a823-8fc1-4b07-8520-41efa39accff" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="92881561-6a7e-4fad-a186-3b9f0edb6021" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
-    <DisplayName>HowToAsync1</DisplayName>
+    <DisplayName>PrimitivePad2</DisplayName>
     <PublisherDisplayName>dreck</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
@@ -34,8 +34,8 @@
       Executable="$targetnametoken$.exe"
       EntryPoint="$targetentrypoint$">
       <uap:VisualElements
-        DisplayName="HowToAsync1"
-        Description="HowToAsync1"
+        DisplayName="PrimitivePad2"
+        Description="PrimitivePad2"
         BackgroundColor="transparent"
         Square150x150Logo="Assets\Square150x150Logo.png"
         Square44x44Logo="Assets\Square44x44Logo.png">
